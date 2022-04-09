@@ -1,0 +1,5 @@
+site yapımında en çok kullanılan ve biririyle en çok karıştırılan 2 css özelliğidir. 
+padding ;element kenarı ile elemenet içeriği arasındaki boşluktur. 
+margin : 2 elementin birbirlerine olan uzklığıdır. (boşluğudur.)
+
+https://www.w3schools.com/css/css_boxmodel.asp

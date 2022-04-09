@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    table,tr,td,th{
+        border:  1px solid black;
+        border-collapse: collapse;
+
+    }
+    table{
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+    th,td{
+        padding: 10px;
+    }
+    thead tr{
+        background: green;
+        color: white;
+        text-align: center;
+    }
+    tbody tr{
+    
+        text-align: center;
+    }
+    
+    tbody  :hover{
+        background: aliceblue;
+    }
+
+</style>
+
+
+</head>
+<body>
+<table>
+
+
+<!-- kenarlık 1px çizgili rengi siyah olsun 
+
+tablo içerisindeki yazı tipi büyüklüğü 1.5em olsun 
+
+thead kismindeki kolonlarda  arkaplan reginin yeşil yazı renginin beyaz olmasını istiyoruz.
+tbody kısmı içerisindeki satırların üzeriene gelindiğinde satırların rengi  beyazın farklı bir tonu  olsun -->
+
+
+    <thead>
+            <tr>
+                <td>Ad</td>
+                <td>Soyad</td>
+                <td>Maas</td>
+            </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Ahmet</th>
+            <th>Tas</th>
+            <th>20000</th>
+        </tr>
+        <tr>
+            <th>Mehmet</th>
+            <th>Tas</th>
+            <th>9000</th>
+        </tr>
+        <tr>
+            <th>Ali</th>
+            <th>Tas</th>
+            <th>30000</th>
+        </tr>
+    </tbody>
+
+</table>
+   
+</body>
+</html>

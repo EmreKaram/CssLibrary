@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a{
+            color: blue;
+            color:  black;
+        }
+
+        h1{
+            color: yellow !important;
+        }
+        /* Css yukarıdan aşağı doğru  çalışır bu nedenle etkilenecek bir etiket seçtiyseniz. Yukarıda yazdığınızda ezilir.
+        //Kodların yukardan aşağıya doğru çalıştığını unutmayın */
+
+        #logo{
+            color: red !important;
+        }
+
+
+        /* Genel seçiciler sayfanın ğstğnde olmalı ve özele doğru inilmeli sizler stillendirme işlemleri yaparken genel secicilerin altinda aşırı değişliklikler yapmayyın . */
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+    <h1>Başlık 1</h1>
+    <h1 style="color: blue;" id="logo">Logo</h1>
+    <ul>
+        <li> 
+            <a href="#">Contact</a>
+        </li>
+        <li><a href="#">Service</a>  </li>
+    </ul>
+    
+    </header>
+    <h1>Başlık2</h1>
+    <p id="prag1" class="lead info"> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem cumque impedit repellendus, cum a sint reiciendis error itaque dolorum adipisci, ex, eaque natus doloribus at.
+    </p>
+    <p class="info">
+    Lorem ipsum dolor sit <span class="primary">consectetur </span>   adipisicing elit. Eum iure perspiciatis aspernatur nostrum at cupiditate quas provident ipsa, quisquam non maiores natus, hic impedit, doloribus aperiam dolores possimus odit in commodi cum repudiandae ipsum ea molestiae? Sed doloribus id neque.
+    </p>
+    
+    <p class="info"> 
+    Lorem ipsum dolor sit amet,  <span>consectetur </span> adipisicing elit. Tempora molestias eveniet dolorem laboriosam vero illo. Ab dicta nobis esse modi, debitis magnam a itaque facere atque adipisci perferendis asperiores temporibus distinctio cum, rem delectus velit harum eveniet minima excepturi, ea nihil iure nemo. Iste deleniti architecto reiciendis, ad perferendis debitis!
+    </p>
+    
+    <p>Test yapilcak</p>
+    
+    
+    <a href="#">Home</a> 
+    
+    </body>
+</html>
