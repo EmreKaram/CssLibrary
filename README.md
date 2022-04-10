@@ -2,4 +2,4 @@
 
 ## Css nedir ?
 
-### CSS, İngilizce adıyla Cascading Style Sheet (Basamaklı Stil Şablonu) temelde web sitenizdeki HTML elementlerinin renk, boyut, yazı karakteri gibi her türlü görsel özelliklerini değiştirmenizi sağlar. Yani web sitesinin görsel sunumunu içerikten ayırır.
+#### CSS, İngilizce adıyla Cascading Style Sheet (Basamaklı Stil Şablonu) temelde web sitenizdeki HTML elementlerinin renk, boyut, yazı karakteri gibi her türlü görsel özelliklerini değiştirmenizi sağlar. Yani web sitesinin görsel sunumunu içerikten ayırır.
