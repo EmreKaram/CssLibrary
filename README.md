@@ -55,7 +55,7 @@ Bu dosyada, CSS dosyasında öğelerin sıralanması ve düzenlenmesi için örn
 
 Bu dosyada, CSS dosyasında bir öğenin stilini inceleme (inspect) ve düzenleme örnekleri bulunmaktadır.
 
-... (diğer içerikleri buraya ekleyin)
+...
 
 ## Intro CSS with HTML Ex Dosyasında
 
